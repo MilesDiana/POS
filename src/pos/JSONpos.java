@@ -39,7 +39,7 @@ public class JSONpos {
             array.add(record);
         }
         
-        jsonObject.put("Students_data", array);
+        jsonObject.put("Sales_data", array);
         try {
             FileWriter file = new FileWriter("output.json");
             file.write(jsonObject.toJSONString());
